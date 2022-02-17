@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Calculator;
+    src: url(Calculator.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -36,15 +40,16 @@
 }
 #resultado{
     background-color: rgb(76, 201, 107);
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.6);
     width: 200px;
-    height: 30px;
+    height: 40px;
     margin: 5px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: right;
     padding: 5px;
-    border-radius: 2px;
+    border-radius: 3px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+    font-family: 'Calculator', Arial;
 }
 #nomeCal{
     color: rgb(199, 199, 199);
